@@ -1,0 +1,24 @@
+{
+    "name": "my-gatsby-site",
+
+    "private": true,
+    "description": "My Gatsby Site",
+    "author": "Chase Meyer",
+    "keywords": ["gatsby"],
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "deploy": "gatsby build && gh-pages -d public -b main"
+    },
+    "dependencies": {
+        "gatsby": "^4.19.2",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+    },
+    "devDependencies": {
+        "gh-pages": "^4.0.0"
+    }
+}
